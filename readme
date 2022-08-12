@@ -1,0 +1,20 @@
+
+How it work:
+
+Install:npm install
+
+
+Start server by running:
+node src/index.ts
+
+or use one of these command:
+nodemon src/index.ts
+or
+npx nodemon src/index.ts
+
+The server can be access at: http://localhost:8000/graphql
+
+{exchange_rate(exchange_from: "USD", exchange_to: "SGD")}
+
+Or use this URL:
+http://localhost:8000/graphql?query=%7Bexchange_rate(exchange_from%3A%20%22USD%22%2C%20exchange_to%3A%20%22SGD%22)%7D
